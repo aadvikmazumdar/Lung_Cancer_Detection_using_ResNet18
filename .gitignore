@@ -1,0 +1,26 @@
+
+echo "# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+dist/
+
+# PyTorch
+*.pth
+*.pt
+
+# Large files
+*.zip
+images/
+dataset/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+ENV/" > .gitignore
